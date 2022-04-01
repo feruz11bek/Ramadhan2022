@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuolarActivity"
+    android:orientation="vertical"
+    android:background="#00FF40"
+    android:layout_margin="1dp">
+
+    <TextView
+        android:id="@+id/matnyop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noticia_text"
+        android:gravity="center"
+        android:text="@string/c"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/matnyopiq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/matnyop"
+        android:fontFamily="@font/noticia_text"
+        android:gravity="start"
+        android:text="@string/yopish"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/matniftor"
+        android:layout_below="@+id/matnyopiq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noticia_text"
+        android:text="@string/ift"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/matniftorlik"
+        android:layout_below="@+id/matniftor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noticia_text"
+        android:text="@string/iftorlikkk"
+        android:textSize="15sp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:gravity="start" />
+
+</RelativeLayout>

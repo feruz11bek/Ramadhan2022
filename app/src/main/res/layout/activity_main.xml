@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fonmm"
+    style="@style/CardView"
+    android:scaleType="centerCrop"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium_italic"
+        android:gravity="center_horizontal"
+        android:text="@string/ramazon_taqvimi_2022"
+        android:textAlignment="center"
+        android:textColor="#E6FF00"
+        android:textSize="24sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        >
+
+        <LinearLayout
+            android:layout_marginVertical="237dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/hududtanla"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="51dp"
+                android:fontFamily="@font/galindo"
+                android:text="@string/hududni_tanlash"
+                android:textColor="@color/black"
+                app:strokeColor="#26FF00"
+                app:cornerRadius="8dp"
+                app:strokeWidth="3dp"
+                android:textAllCaps="false"
+               app:icon="@drawable/ic_calendar"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/duo"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:fontFamily="@font/galindo"
+                android:text="Saharlik va iftorlik duolari"
+                android:textColor="@color/black"
+                app:strokeColor="#26FF00"
+                app:cornerRadius="8dp"
+                app:strokeWidth="3dp"
+                android:textAllCaps="false"
+                app:icon="@drawable/ff28"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/muallif"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="200dp"
+                android:layout_height="51dp"
+                android:fontFamily="@font/galindo"
+                android:text="@string/muallif"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:strokeColor="#26FF00"
+                app:cornerRadius="8dp"
+                app:strokeWidth="3dp"
+                app:icon="@drawable/ic_person"
+                app:iconGravity="textStart"
+                android:layout_gravity="center_horizontal"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ulashish"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="200dp"
+                android:layout_height="51dp"
+                android:fontFamily="@font/galindo"
+                android:text="@string/ulashish"
+                app:icon="@drawable/share"
+                app:iconGravity="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:strokeColor="#26FF00"
+                app:cornerRadius="8dp"
+                app:strokeWidth="3dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

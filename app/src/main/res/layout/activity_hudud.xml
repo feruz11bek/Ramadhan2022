@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HududActivity"
+    android:orientation="vertical"
+    android:layout_margin="1dp"
+   >
+
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#F7FF03"
+        android:fontFamily="@font/b612_italic"
+        android:gravity="center_horizontal"
+        android:text="@string/quyidagi_taqvim_toshkent_vaqti_bilan_qolgan_hududlar_jadvaldan_quyida_keltirilgan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textt"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/rozajadval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp">
+
+                <TableRow android:background="#00FF40">
+
+                    <TextView
+                        android:id="@+id/rozakuni"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ro_za_kuni"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/saharlik"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/saharlik"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/iftorlik"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/iftorlik"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_1_kun_2_aprel_shanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_47"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_51"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_2_kun_3_aprel_yakshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_45"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_52"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_3_kun_4_aprel_dushanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/vaqt3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_43"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_53"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_4_kun_5_aprel_seshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_41"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_54"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_5_kun_6_aprel_chorshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_39"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_55"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_6_kun_7_aprel_payshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_37"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_56"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_7_kun_8_aprel_juma"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_35"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_57"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_8_kun_9_aprel_shanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_34"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_58"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_9_kun_10_aprel_yakshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_32"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_59"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_10_kun_11_aprel_dushanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_30"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_00"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_11_kun_12_aprel_seshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_28"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_01"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_12_kun_13_aprel_chorshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_26"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_03"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_13_kun_14_aprel_payshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_25"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tugadi13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_04"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_14_kun_15_aprel_juma"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/vaqt14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_23"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_05"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_15_kun_16_aprel_shanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_21"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_06"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_16_kun_17_aprel_yakshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_19"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_07"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_17_kun_18_aprel_dushanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_17"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tugadi17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_08"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_18_kun_19_aprel_seshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_15"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_09"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8" >
+                    <TextView
+                        android:id="@+id/kun19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_kun_20_aprel_chorshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_13"
+                        android:textSize="18sp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/tugadi19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_10"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_20_kun_21_aprel_payshanba"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"/>
+
+                        <TextView
+                            android:id="@+id/vaqt20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_12"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_11"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_21_kun_22_aprel_juma"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/vaqt21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_10"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_12"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_22_kun_23_aprel_shanba"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/vaqt22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_08"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_13"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_23_kun_24_aprel_yakshanba"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/vaqt23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_06"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_14"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow><TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun24"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_24_kun_25_aprel_dushanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt24"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_04_05"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi24"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_15"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_25_kun_26_aprel_seshanba"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/vaqt25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_04"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_17"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                    <TableRow android:background="#24C7F8">
+
+                        <TextView
+                            android:id="@+id/kun26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_26_kun_27_aprel_chorshanba"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/vaqt26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_04_02"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tugadi26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_weight="3"
+                            android:fontFamily="@font/quantico_bold_italic"
+                            android:gravity="center_horizontal"
+                            android:text="@string/_19_18"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                    </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_27_kun_28_aprel_payshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_03_59"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_19"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun28"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_28_kun_29_aprel_juma"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt28"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_03_57"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi28"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_20"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_29_kun_30_aprel_shanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/vaqt29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_03_56"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_21"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+                <TableRow android:background="#24C7F8">
+
+                    <TextView
+                        android:id="@+id/kun30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_30_kun_1_may_yakshanba"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/vaqt30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_03_54"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tugadi30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:layout_weight="3"
+                        android:fontFamily="@font/quantico_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="@string/_19_22"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/matn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FF40"
+                android:fontFamily="@font/b612_italic"
+                android:text="@string/quyoshning_chiqish_va_botish_vaqtidagi_farqlar_daqiqalarda"
+                android:textSize="15sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:gravity="start" />
+            <TextView
+                android:id="@+id/matn2"
+                android:layout_below="@+id/matn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FF40"
+                android:fontFamily="@font/b612_italic"
+                android:text="@string/toshkent_vaqtidan_oldin_angren_3_3_bekobod_4_2_namangan_9_10_farg_ona_6_12_andijon_11_13_qo_qon_3_8_xo_jaobod_12_13_shaxrixon_10_12"
+                android:textSize="15sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:gravity="start" />
+            <TextView
+                android:id="@+id/matn3"
+                android:layout_below="@+id/matn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FF40"
+                android:fontFamily="@font/b612_italic"
+                android:text="@string/quyoshning_chiqish_va_botish_vaqtidagi_farqlar_daqiqalarda"
+                android:textSize="15sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:gravity="start" />
+            <TextView
+                android:id="@+id/matn4"
+                android:layout_below="@+id/matn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FF40"
+                android:fontFamily="@font/b612_italic"
+                android:text="@string/toshkent_vaqtidan_keyin_jizzax_6_7_guliston_2_3_denov_7_7_termiz_10_10_samarqand_10_11_kattaqo_rg_on_11_13_nurota_17_18_navoiy_16_17_buxoro_23_18_nukus_37_39_mo_ynoq_39_41_urganch_35"
+                android:textSize="15sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:gravity="start" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
